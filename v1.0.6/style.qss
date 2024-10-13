@@ -1,0 +1,114 @@
+/* Load the custom font */
+@font-face {
+    font-family: 'GothamBold';
+    src: url(r'../Fonts/GothamBold.ttf') format('truetype'); /* Update the path to the location of your font */
+}
+
+/* General application styling */
+QWidget {
+    background-color: #f5f5f5;  /* Light background color */
+    font-family: 'GothamBold', Arial, sans-serif; /* Apply GothamBold as the primary font */
+    color: #333;  /* Dark text color */
+}
+
+/* Label styling */
+QLabel {
+    color: #555;  /* Slightly lighter text color for labels */
+    font-size: 20px;  /* Larger font size for labels */
+    margin-bottom: 5px;  /* Space below labels */
+    font-family: 'GothamBold'; /* Ensure GothamBold is used for labels */
+}
+
+/* LineEdit styling */
+QLineEdit {
+    border: 1px solid #ccc;  /* Light border */
+    border-radius: 5px;  /* Rounded corners */
+    padding: 8px;  /* Increased padding inside the input */
+    background-color: #fff;  /* White background for input */
+    font-size: 14px;  /* Font size for input */
+    font-family: 'GothamBold'; /* Apply custom font */
+}
+
+QLineEdit:focus {
+    border: 1px solid #007bff;  /* Blue border on focus */
+}
+
+/* Button styling */
+QPushButton {
+    background-color: #007bff;  /* Primary button color */
+    color: white;  /* White text */
+    border: none;  /* No border */
+    border-radius: 5px;  /* Rounded corners */
+    padding: 10px 15px;  /* Padding for the button */
+    font-size: 20px;  /* Font size for buttons */
+    transition: background-color 0.3s;  /* Smooth transition */
+    font-family: 'GothamBold'; /* Apply custom font */
+}
+
+QPushButton:hover {
+    background-color: #0056b3;  /* Darker shade on hover */
+}
+
+/* Progress bar styling */
+QProgressBar {
+    background-color: #e0e0e0;  /* Background color of the progress bar */
+    border-radius: 5px;  /* Rounded corners */
+    font-family: 'GothamBold'; /* Apply custom font */
+}
+
+QProgressBar::chunk {
+    background-color: #28a745;  /* Progress indicator color */
+    border-radius: 5px;  /* Rounded corners for the progress indicator */
+}
+
+/* ComboBox styling */
+QComboBox {
+    background-color: #f9f9f9;  /* Light background color */
+    border: 1px solid #ccc;      /* Border color */
+    border-radius: 5px;          /* Rounded corners */
+    padding: 8px;                /* Increased padding inside the combo box */
+    font-size: 16px;             /* Increased font size */
+    min-width: 150px;            /* Minimum width for combo box */
+    font-family: 'GothamBold'; /* Apply custom font */
+}
+
+QComboBox:hover {
+    border: 1px solid #007bff;   /* Change border color on hover */
+}
+
+QComboBox::drop-down {
+    border: none;                 /* Remove border from drop-down button */
+    background-color: #e7e7e7;   /* Light background for the drop-down */
+    border-top-right-radius: 5px; /* Rounded corners for drop-down */
+    border-bottom-right-radius: 5px; /* Rounded corners for drop-down */
+}
+
+QComboBox::indicator {
+    width: 15px;                  /* Width of the indicator */
+    height: 15px;                 /* Height of the indicator */
+}
+
+QComboBox::item {
+    padding: 10px;                /* Padding for each item */
+    background-color: #f9f9f9;    /* Background color for items */
+    font-size: 16px;              /* Increased font size for items */
+}
+
+QComboBox::item:selected {
+    background-color: #007bff;    /* Background color for selected item */
+    color: white;                 /* Text color for selected item */
+}
+
+QComboBox::item:hover {
+    background-color: #a4d1e1;    /* Background color for hovered item */
+}
+
+/* Footer label styling */
+QLabel#footer_label {
+    color: #888;  /* Lighter color for footer label */
+    font-style: italic;  /* Italic style for footer */
+    margin-top: 20px;   /* Space above footer label */
+    font-family: 'GothamBold'; /* Apply custom font */
+}
+
+/* Other customizations as needed */
