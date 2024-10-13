@@ -1,14 +1,14 @@
   <a name="top"></a>
 
 <p align="center">
-  <img width="660" height="500" src="https://raw.githubusercontent.com/pudszttiot/Folder-Templates/main/Images/githubreadmetemplate1.png">
+  <img width="660" height="500" src="https://raw.githubusercontent.com/pudszttiot/Spotify-Playlist-2-Text/refs/heads/main/Images/SP2T_1.png">
 </p>
 
 <h2 align="center">
 
 ---
 
-[PROJECT NAME HERE]
+Spotify Playlist 2 Text
 
 ---
 
@@ -24,7 +24,9 @@
 
 ## Description
 
-[Provide a brief overview of what your project is about. Include its purpose, main features, and any relevant information.]
+This project is a Spotify Playlist Processing Application built with **PyQt5** and **Spotipy** (Spotify API Python library). The application allows users to input a Spotify playlist URL and export the playlist data in various formats: **Text (.txt), HTML (.html), or CSV (.csv)**.
+
+The app is designed to be user-friendly, providing an efficient way to extract and export Spotify playlist details.
 
 ## Screenshots
 
@@ -68,14 +70,25 @@
 
 ## Features
 
-[List the key features of your project. This section should highlight what sets your project apart and why users would want to use it.]
-
 <br>
 
-<ins>[**ENTER FEATURE HERE**:]</ins>
-   - [Description of feature]
-   - [Description of feature]
-   - [Description of feature]
+<ins>**Spotify Playlist Retrieval**:</ins>
+   - Automatically fetches detailed track information (track names, artists, album, and Spotify URLs) from any public Spotify playlist.
+   
+<ins>**Multiple Export Formats**:</ins>
+   - Export playlist data in **Text (.txt)**, **HTML (.html)**, or **CSV (.csv)** formats, offering flexibility for different use cases.
+   
+<ins>**Progress Tracking**:</ins>
+   - A visual **progress bar** allows users to track the export process, ensuring they know when tasks are complete.
+   
+<ins>**File Auto-Opening**:</ins>
+   - Automatically opens the exported file upon completion, saving users the step of searching for the output.
+   
+<ins>**User-Friendly Design**:</ins>
+   - Simple and intuitive interface for quick access to playlist processing, making it accessible to users of all experience levels.
+   
+<ins>**Error Handling**:</ins>
+   - Comprehensive error handling to ensure users are informed if any issues occur during processing or exporting.
 
 ## Contributing
 
