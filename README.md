@@ -67,7 +67,7 @@ The app is designed to be user-friendly, providing an efficient way to extract a
 - **Run the app using the below command:**
 
    ```bash
-   python run.py
+   python spotify_playlist_to_text.py
    ```
 
 ## Features
