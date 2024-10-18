@@ -1,7 +1,7 @@
   <a name="top"></a>
 
 <p align="center">
-  <img width="660" height="500" src="https://raw.githubusercontent.com/pudszttiot/Spotify-Playlist-2-Text/refs/heads/main/Images/SP2T_1.png">
+  <img width="660" height="500" src="https://raw.githubusercontent.com/pudszttiot/Spotify-Playlist-2-Text/refs/heads/main/Images/SP2T_2.png">
 </p>
 
 <h2 align="center">
