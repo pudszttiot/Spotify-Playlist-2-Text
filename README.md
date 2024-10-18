@@ -8,7 +8,8 @@
 
 ---
 
-Spotify Playlist 2 Text
+Spotify Playlist 2 Text 
+[![Download Spotify-Playlist-2-Text](https://img.shields.io/sourceforge/dt/spotify-playlist-2-text.svg)](https://sourceforge.net/projects/spotify-playlist-2-text/files/latest/download)
 
 ---
 
