@@ -40,7 +40,7 @@ The app is designed to be user-friendly, providing an efficient way to extract a
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/pudszttiot/Folder-Templates.git
+   git clone https://github.com/pudszttiot/Spotify-Playlist-2-Text.git
    ```
 
 2. **Install dependencies:**
@@ -55,7 +55,7 @@ The app is designed to be user-friendly, providing an efficient way to extract a
 
 <h3 align="center">
 
-[![Download ReqBuilder](https://a.fsdn.com/con/app/sf-download-button)](https://sourceforge.net/projects/reqbuilder/files/latest/download)
+[![Download Spotify-Playlist-2-Text](https://a.fsdn.com/con/app/sf-download-button)](https://sourceforge.net/projects/spotify-playlist-2-text/files/latest/download)
 
 </h3>
 
